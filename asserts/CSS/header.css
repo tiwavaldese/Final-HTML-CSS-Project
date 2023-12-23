@@ -1,0 +1,14 @@
+.topbar{
+    width: 430px;
+    height: 148px;
+}
+.topmail_contact{
+    display: flex;
+    flex-direction: row wrap;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    top: 11px;
+    height: 67px;
+}
