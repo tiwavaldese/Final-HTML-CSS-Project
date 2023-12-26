@@ -9,7 +9,8 @@
     <script src="./asserts/JS/index.js"></script>
 </head>
 <body>
-   <header class="topbar">
+    <header>
+   <div class="topbar">
     <div class="topmail_contact">
         <div class="topmail">
             <i data-feather="mail"></i>
@@ -22,24 +23,33 @@
         
     </div>
     <div class="topmiddle">
-        <div class="topsocial">
-            <i data-feather="facebook"></i>
-            <i data-feather="twitter"></i>
-            <i data-feather="instagram"></i>
+        <div>
+            <i data-feather="facebook" class="topsocial"></i>
+            <i data-feather="twitter" class="topsocial"></i>
+            <i data-feather="instagram" class="topsocial"></i>
         </div>
         <div>
             <button class="btn">Get a schedule</button>
         </div>
     </div>
+    </div>
     <div class="topbottom">
         <div>
             <img class="logo" src="./asserts/Images/logo.svg">
         </div>
-        <div class="menu">
-            <i data-feather="menu"></i>
+        <div>
+            <i data-feather="menu" class="menu"></i>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Video</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Partners</a></li>
+            </ul>
         </div>
     </div>
-   </header> 
+</header>
    <script>
     //your custom js here
     feather.replace()
