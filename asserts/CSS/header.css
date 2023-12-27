@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 .topbar{
     
     height: 148px;
@@ -26,7 +29,7 @@
     justify-content:center;
     align-items: center;
     height: 48px;
-    border-bottom: 0.2px solid #000;
+    border-bottom: 0.2px solid rgb(197,197,197);
     gap:20px;
     width:100%;
 }
@@ -73,34 +76,96 @@
 .menu-list{
     display: none;
 }
+
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.closeicon{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10%;
+    right: 22px;
+}
+.menuitems-overlay{
+    background-color: #fff;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+.menuitems-overlay li{
+    list-style: none;
+    border-bottom: 0.2px solid rgb(197,197,197);
+    background-color: #fff;
+    width: 350px;
+    height: 74px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+.menuitems-overlay a{
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+}
 @media all and (min-width: 601px){
     .topbar{
         flex-direction: row ;
         justify-content: space-between;
         padding: 0 20px;
     }
-    .topmail_contact, .topmiddle{
-        width: 50%;
-        gap: 20px;
-    }
+   
     .topmail_contact{
         justify-content: flex-start;
+        width:50%;
+        gap: 20px;
+        margin: 15px auto;
     }
     .topmiddle{
         justify-content: flex-end;
         border-bottom: none;
+        width: 35%;
+        gap: 20px;
+        margin: 0 auto;
+    }
+    .topmiddle{
+        height: 100%;
+        display: flex;
+
+    }
+    .topbar .btn{
+        flex: 1;
+    }
+    .topbottom{
+        width: 90%;
+        margin: 0 auto;
     }
     .menu{
         display: none;
     }
-    .menu-list{
+    .menu-list {
+        display:flex;
+    }
+    .menu-list ul {
         display:flex;
         list-style: none;
-        text-decoration: none;
-        gap: 10px
+        gap: 10px;
     }
     .menu-list a{
-        
         text-decoration: none;
+        font-size: 14px;
+        color: #000;
     }
 }

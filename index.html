@@ -38,8 +38,10 @@
             <img class="logo" src="./asserts/Images/logo.svg">
         </div>
         <div>
-            <i data-feather="menu" class="menu"></i>
-            <ul class="menu-list">
+            <i data-feather="menu" class="menu" id="openOverlay" onclick="openOverlay()"></i>
+        </div>
+        <div class="menu-list">
+            <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About us</a></li>
                 <li><a href="">Services</a></li>
@@ -49,10 +51,31 @@
             </ul>
         </div>
     </div>
+    <div class="overlay" id="overlay">
+        <div class="overlay-content">
+            <span class="feather" id="closeOverlay" onclick="closeOverlay()">
+                <i data-feather="x" class="closeicon"></i>
+            </span>
+            <div class="menuitems-overlay">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Video</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Partners</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </header>
+
    <script>
     //your custom js here
     feather.replace()
+    function openOverlay(){
+        document.getElementById("overlay").style.display = "flex"
+    }
   </script>
 </body>
 </html>
