@@ -93,23 +93,24 @@
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 10%;
+    top: 12%;
     right: 22px;
 }
 .menuitems-overlay{
     background-color: #fff;
-    margin: 0 auto;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     font-family: 'Inter', sans-serif;
+
 }
+
 .menuitems-overlay li{
     list-style: none;
     border-bottom: 0.2px solid rgb(197,197,197);
     background-color: #fff;
     width: 350px;
-    height: 74px;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
