@@ -76,7 +76,11 @@ line-height: normal;
 }
 @media all and (min-width: 901px) {
     .hero-content{
-        width: 60%;
+        width: 50%;
         height: 250px;
+        padding: 50px;
+    }
+    .hero-btn{
+        padding: 20px 50px;
     }
 }
