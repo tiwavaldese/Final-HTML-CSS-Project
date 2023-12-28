@@ -7,7 +7,7 @@
 
 .about-img{
 height: 353.656px;
-width: 100%;
+width: 360px;
 padding: 20px;
 }
 .about-content{
@@ -111,7 +111,7 @@ height: 39px;
 }
 .video-img{
     position: relative;
-    width: 100%;
+    width: 360px;
     height: 325px;
     display: flex;
     align-items: center;
