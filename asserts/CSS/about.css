@@ -68,7 +68,23 @@ padding: 20px;
     border: none;
     margin: 20px 0;
 }
-
+.box-content{
+    display: grid;
+    justify-content: space-evenly;
+    background-color: #C82424;
+    color: #FFF;
+    padding: 20px;
+    width: 390px;
+    height: 423px;
+    margin: 0 auto 10px;
+}
+.box-content h2{
+font-size: 20px;
+}
+.box-content p{
+    width: 95%;
+    height: 126px;
+    }
 @media all and (min-width: 601px) and (max-width: 900px){
   
 .about-img{
@@ -108,8 +124,7 @@ padding: 20px;
 }
 @media all and (min-width: 901px){
     .about{
-        width: 1280px;
-        height: 340px;
+        width: 1270px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
