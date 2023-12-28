@@ -1,0 +1,42 @@
+.group{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+.group div{
+    border-bottom: 0.5px solid #CDC9C9;
+    background: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 254px;
+}
+.group p{
+    padding: 30px ;
+}
+.group-icon{
+width: 50px;
+height: 50px;
+}
+@media all and (min-width: 601px) and (max-width: 900px){
+    .group{
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px;
+    }
+    .group div{
+        border-bottom: none;
+    }
+}
+@media all and (min-width: 901px){
+    .group{
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+    }
+    .group div{
+        border-bottom: none;
+    }
+    .group p{
+        padding: 20px ;
+    }
+}
