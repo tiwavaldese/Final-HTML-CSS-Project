@@ -70,7 +70,9 @@ padding: 20px;
 }
 .box-content{
     display: grid;
+    grid-template-columns: 1fr;
     justify-content: space-evenly;
+    align-items: center;
     background-color: #C82424;
     color: #FFF;
     padding: 20px;
