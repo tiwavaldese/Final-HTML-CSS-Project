@@ -299,6 +299,8 @@ footer{
     justify-content: space-evenly;
     padding: 20px;
     gap: 45px;
+    background-color: #0F3041;
+    color: #FFF;
 }
 .logo-white{
     width: 130px;
