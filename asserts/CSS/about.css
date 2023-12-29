@@ -7,10 +7,11 @@
 
 .about-img{
 height: 353.656px;
-width: 360px;
+width: 320px;
 display: flex;
 justify-content: center;
 align-items: center;
+margin: 0 auto;
 padding: 20px;
 }
 .about-content{
@@ -120,8 +121,9 @@ height: 39px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     padding: 20px;
-    width: 375px;
+    width: 320px;
     height: 325px;
     border-radius: 5px;
 }
@@ -132,7 +134,7 @@ height: 39px;
     height: 703.685px;
     padding: 20px;
     }
- 
+    
     .about-us{
         font-size: 14px;
         width: 72px;
@@ -183,7 +185,7 @@ height: 39px;
         grid-template-columns: 1fr 1fr;
     } 
     .about-img{
-        width: 550px;
+        width: 550px; 
         height: 703.685px;
         padding: 20px;
         }
