@@ -14,7 +14,7 @@ align-items: center;
 }
 .about-content{
     padding: 20px;
-    height: 750px;
+    height: 650px;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: space-evenly;
@@ -24,6 +24,7 @@ align-items: center;
     font-size: 12px;
     width: 55px;
     height: 15px;
+    margin: 5px 0 0;
 }
 .about-us{
     border-bottom: 3px solid #C82424;
