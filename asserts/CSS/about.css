@@ -125,7 +125,31 @@ height: 39px;
     height: 325px;
     border-radius: 5px;
 }
+.form{
+    height: 600px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0,0.1), rgba(0, 0, 0, 0.1)),url('../Images/contact-bg.svg');
 
+}
+.form h2{
+    font-size: 18px;
+}
+.form-para{
+    font-size: 13px;
+}
+.form-content{
+    width: 90%;
+    padding: 20px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFF;
+}
 @media all and (min-width: 601px) and (max-width: 900px){
   
 .about-img{
