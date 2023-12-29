@@ -7,7 +7,7 @@
 
 .about-img{
 height: 353.656px;
-width: 350px;
+width: 300px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -15,7 +15,7 @@ margin: 0 auto;
 } 
 .about-content{
     padding: 20px;
-    height: 650px;
+    height: 550px;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: space-evenly;
@@ -45,7 +45,7 @@ margin: 0 auto;
     font-weight: 400;
     line-height: normal;
     color: #6C6C6C;
-    padding: 0 20px 0 0;
+    padding: 5px 20px 0 0;
 }
 .icon-para{
     display:grid;
@@ -117,7 +117,7 @@ height: 39px;
 }
 .video-img{
     position: relative;
-    width: 350px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,10 +125,11 @@ height: 39px;
     height: 325px;
     border-radius: 5px;
 }
+
 @media all and (min-width: 601px) and (max-width: 900px){
   
 .about-img{
-    width: 350px;
+    width: 700px;
     height: 703.685px;
     padding: 20px;
     }
@@ -143,7 +144,7 @@ height: 39px;
         height: 75px;
         font-size: 33px;
     }
-    
+   
     .year{
         color: #c82424;
     }
@@ -171,7 +172,7 @@ height: 39px;
         height: 72px;
         }
         .video-img{
-            width: 660px;
+            width: 637px;
             padding: 10px;
         }
        
@@ -181,12 +182,15 @@ height: 39px;
         width: 1270px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 0;
     } 
-    
+    .about-content{
+        padding: 0;
+    }
     .about-img{
-        width: 550px; 
+        width: 500px; 
         height: 703.685px;
-        padding: 20px;
+        padding: 5px;
         }
      
         .about-us{
@@ -195,26 +199,52 @@ height: 39px;
         }
       
         .about h2{
-            width: 617px;
+            width: 350px;
             height: 75px;
-            font-size: 33px;
+            font-size: 25px;
         }
         
-        .year{
-            color: #c82424;
-        }
+        
         .about-para{
-            font-size: 16px;
-            width: 713px;
+            font-size: 14px;
+            width:350px;
         }
         .icon-para{
             font-size: 16px;
             display: grid;
             grid-template-columns: 1fr 1fr;
+            gap: 2px;
         }
         .free-consult{
             width: 164.423px;
             height: 43px;
             font-size: 14px;
         }
+   .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+   }
+        .box-content{
+            width: 650px;
+            height: 480px;
+            position: absolute;
+            z-index: 2;
+            top: 1700px;
+            justify-content: flex-start;
+            margin: 20px  30px;
+        }
+        .box-content h2{
+        font-size: 30px;
+        }
+        .box-content p{
+            height: 72px;
+            }
+            .video-img{
+                width: 596px;
+                height: 517px;
+                left: 100%;
+                justify-content: flex-end;
+            }
+           
 } 
