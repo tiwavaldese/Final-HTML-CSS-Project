@@ -11,6 +11,7 @@ width: 360px;
 display: flex;
 justify-content: center;
 align-items: center;
+padding: 20px;
 }
 .about-content{
     padding: 20px;
@@ -118,7 +119,9 @@ height: 39px;
     position: relative;
     display: flex;
     justify-content: center;
-    width: 100px;
+    align-items: center;
+    padding: 20px;
+    width: 375px;
     height: 325px;
     border-radius: 5px;
 }
