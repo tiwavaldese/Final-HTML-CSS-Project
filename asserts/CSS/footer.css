@@ -1,0 +1,128 @@
+
+footer{
+    background-color: #0F3041;
+    color: #FFF;
+    height: 1151px;
+   
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 45px;
+    background-color: #0F3041;
+    color: #FFF;
+}
+.logo-white{
+    width: 130px;
+height: 60px;
+}
+.footer-head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.foot-para{
+    font-size: 14px;
+}
+.foot-head1{
+    margin-top: 20px;
+}
+.foot-head1,.foot-head3{
+    width: 120px;
+    height: 15px;
+    border-bottom: 3px solid #C82424;
+    padding-bottom: 30px;
+}
+.foot-head2{
+    width: 85px;
+    height: 15px;
+    border-bottom: 3px solid #C82424;
+    padding-bottom: 30px;
+}
+.foot-head li{
+    margin: 10px auto 0px;
+   font-size: 14px;
+   list-style: none;
+   font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.foot-icon {
+    display: flex;
+    margin: 10px auto 0;
+    gap: 10px;
+}
+.foot-icon i{
+    width: 20px;
+    height: 20px;
+    font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+footer hr{
+    margin: 15px 0;
+}
+.foot-bottom{
+    text-align: center;
+    font-size: 20px;
+}
+@media all and (min-width: 601px) and (max-width: 900px){
+    footer{
+        height: 622.541px;
+    }
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:  30px;
+}
+
+.foot-para{
+    width: 360px;
+}
+
+.foot-head1,.foot-head2,.foot-head3{
+    font-size: 20px;
+}
+
+
+.foot-icon {
+    display: flex;
+    margin: 10px auto 0;
+    gap: 10px;
+}
+.foot-icon i{
+    width: 20px;
+    height: 20px;
+}
+.footer hr{
+    height: 0;
+    width: 500px;
+}
+
+}
+
+
+@media all and (min-width: 901px) {
+    footer{
+        height: 444px;
+        width: 1275px;
+    }
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:  50px;
+}
+.foot-para{
+    width: 350px;
+    height: 125.104px;
+}
+
+.foot-head1,.foot-head2,.foot-head3{
+    font-size: 20px;
+}
+.foot-head2, .foot-head3{
+    margin-top: 20px;
+}
+}

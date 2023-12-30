@@ -1,0 +1,249 @@
+
+.form{
+    margin-top: 20px;
+    height:  1050px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(0deg,rgba(0, 0, 0,0.1), rgba(0, 0, 0, 0.1) 100%),url('../Images/contact-bg.svg');
+
+}
+.form h2{
+    font-size: 18px;
+}
+.form-para{
+    font-size: 13px;
+}
+.form-content{
+    padding:10px 20px;
+    height: 950px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFF;
+    margin: 0 auto;
+}
+.form-para1 p{
+    font-size: 15px;
+    width: 110px;
+}
+.form-para1 p{
+    border-bottom: 3px solid #C82424;
+    padding-bottom: 10px;
+}
+.form-para2 p{
+    font-size: 15px;
+    width: 120px;
+    border-bottom: 3px solid #C82424;
+    padding-bottom: 10px;
+}
+
+.formsocial-icon{
+    display: flex;
+    gap: 8px;
+}
+.formsocial{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding:5px;
+    color: #C82424;
+    background-color: #FFF;
+}
+.form-input-icon{
+    width: 50px;
+    height: 55px;
+    border: 0.7px solid #8B8B8B;
+    padding: 10px;
+    background-color: #3F596C;
+    color: #FFF;
+    
+}
+.user-icon{
+    position: absolute;
+    z-index: 2;
+}
+.email-icon{
+    position: absolute;
+    z-index: 2;
+}
+.phone-icon{
+    position: absolute;
+    z-index: 2;
+}
+.date-icon{
+    position: absolute;
+    z-index: 2;
+}
+.message-icon{
+    position: absolute;
+    z-index: 2;
+    
+}
+.name{
+    width: 360px;
+    height: 55px;
+    padding-left: 70px;
+    font-size: 18px;
+}
+.email{
+    width: 360px;
+    height: 55px;
+    padding-left: 70px;
+    font-size: 18px;
+}
+.phone{
+    width: 360px;
+    height: 55px;
+    padding-left: 70px;
+    font-size: 18px;
+}
+.date{
+    width: 360px;
+    height: 55px;
+    padding-left: 70px;
+    font-size: 18px;
+}
+textarea{
+    width: 360px;
+    height: 202px;
+    padding: 20px 70px;
+    font-size: 18px;
+}
+.form-btn{
+    width: 146px;
+    height: 38px;
+    color: #FFF;
+    background-color: #c82424;
+    font-size: 12px;
+    border: none;
+}
+
+@media all and (min-width: 601px) and (max-width: 900px){
+
+      
+    .form h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .form-para{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .form-para1 p{
+        font-size: 17px;
+        width: 120px;
+    }
+    .form-para1 span{
+        font-size: 25px;
+        width: 198px;
+    }
+    
+    .form-para2 {
+        font-size: 17px;
+        width: 140px;
+    }
+    
+    .form-h3{
+        font-size: 18px;
+    }
+    .form-input{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin: 0 ;
+       gap: 20px;
+    }
+    
+    .name{
+        width: 350px;
+    }
+    .email{
+        width: 350px;
+    }
+    .phone{
+        width: 350px;
+    }
+    .date{
+        width: 350px;
+    }
+    textarea{
+        width: 740px;
+        height: 214px;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .form-btn{
+        width: 192px;
+        height: 46px;
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 901px) {
+
+            
+    .form h2{
+        text-align: none;
+        width: 380px;
+        height: 100px;
+        font-size: 30px;
+    }
+    .form-para{
+       width: 340px;
+        text-align: none;
+        height: 110px;
+        font-size: 14px;
+    }
+    .contact-social{
+        display: flex;
+        gap: 40px;
+        height:300px;
+    }
+    .form-h3{
+        font-size: 18px;
+    }
+    .form-input{
+        display: flex;
+        gap: 50px;
+        margin: 30px auto;
+    
+    }
+    
+    .name{
+        width: 330px;
+    }
+    .email{
+        width: 330px;
+    }
+    .phone{
+        width: 330px;
+    }
+    .date{
+        width: 330px;
+    }
+    textarea{
+        width: 710px;
+        gap: 0;
+    }
+    .form-btn{
+        margin: 30px 0 0;
+    }
+    .form{
+        width: 1270px;
+        height: 727px;
+    }
+    .form-content{
+        display: flex;
+        margin: 0 auto;
+        height: 700px;
+    }
+     
+}
