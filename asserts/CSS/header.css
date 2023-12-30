@@ -87,7 +87,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    z-index: 3;
+    z-index: 333;
 }
 .closeicon{
     color: #fff;
