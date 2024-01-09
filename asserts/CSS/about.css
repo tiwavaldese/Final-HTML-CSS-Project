@@ -7,7 +7,7 @@
 
 .about-img{
 height: 353.656px;
-width: 350px;
+width: 360px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -100,26 +100,30 @@ height: 39px;
 .box1{
     font-size: 14px;
 }
-.triangle{
-    position: absolute;
-    color: #fff;
-    width: 24px;
-    height: 24px;
-    transform: rotate(90deg);
-    z-index: 3;
-}
-.ellipse{
-    position: absolute;
-    top: 50%;
+
+.video-icon{
+    position:absolute;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, 50%);
+    top: 50%;
     width: 80px;
     height: 80px;
-    z-index: 2;
+    padding: 10px;
+    z-index: 3;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%)
 }
-.video-img{
+
+.video{
+    background-image:url('../Images/video-img.svg');
+    background-repeat: no-repeat, repeat;
     position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 325px;
+    margin: 25px auto;
+    width: 360px;
+} 
+.video-img{
     width: 350px;
     display: flex;
     justify-content: center;
@@ -127,13 +131,13 @@ height: 39px;
     margin: 0 auto;
     height: 325px;
     border-radius: 5px;
+    z-index: 1;
 }
 @media all and (min-width: 601px) and (max-width: 900px){
   
 .about-img{
     width: 700px;
     height: 703.685px;
-    padding: 20px;
     }
     
     .about-us{
@@ -173,12 +177,20 @@ height: 39px;
     .box-content p{
         height: 72px;
         }
-        .video-img{
-            width: 637px;
+        .video-icon{
+            position: absolute;
+            left: 50%;
+            width: 80px;
+            height: 80px;
             padding: 10px;
         }
-       
-  
+       .video-img{
+        padding: 10px;
+        width: 700px;
+       }
+       .video{
+        width: 637px;
+    } 
     }
 @media all and (min-width: 901px){
     .about{
@@ -229,13 +241,13 @@ height: 39px;
     margin-top: 0;
    }
         .box-content{
-            width: 650px;
+            width: 652px;
             height: 480px;
             position: absolute;
             z-index: 2;
-            top: 1700px;
+            top: 1613px;
             justify-content: flex-start;
-            margin: 20px  30px;
+            margin: 22px 30px;
         }
         .box-content h2{
         font-size: 30px;
@@ -249,6 +261,15 @@ height: 39px;
                 left: 100%;
                 justify-content: flex-end;
             }
-    
+            .video-icon{
+                width: 100px;
+                height: 100px;
+            }
+            .video{
+                height: 517px;
+                width: 596px;
+                left: 100%;
+                margin: 0px auto;
+            } 
 
 } 
